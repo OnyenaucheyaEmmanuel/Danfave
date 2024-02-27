@@ -34,12 +34,13 @@ li :hover {
 .para {
   font-size: 25px;
 }
-select {
+.select {
   border: none;
   border-radius: 10px;
   background-color: greenyellow;
   color: white;
   padding: 10px;
+  padding-left: ;
 }
 .button {
   background-color: greenyellow;

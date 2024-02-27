@@ -77,15 +77,23 @@
     <section class="categories mt-5">
       <div class="container">
         <p class="d-inline para">Categories</p>
-        <select>
-            <option value="#laptop"><a href="#laptop">Laptops</a></option>
-            <option value="#phone"><a href="#phone">Phones</a></option>
-            <option value="#watch"><a href="#watch">Wrist Watches</a></option>
-            <option value="">Shoes</option>
-            <option value="">Clothes</option>
-            <option value="">Accessories</option>
-            <option value="">Home Appliances</option>
-        </select>
+
+
+        <div class="dropdown select d-inline">
+            <button class="btn  dropdown-toggle px-5 text-start" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select...
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item"href="#laptop">Laptops</a>
+                <a class="dropdown-item" href="#phone">Phones</a>
+                <a class="dropdown-item" href="#watch">Wrist Watchese</a>
+                <a class="dropdown-item" href="#">Shoes</a>
+                <a class="dropdown-item" href="#">Clothes</a>
+                <a class="dropdown-item" href="#">Accessories</a>
+                <a class="dropdown-item" href="#">Home Appliances</a>
+            </div>
+            </div>
+     
       </div>
     </section>
 
@@ -286,7 +294,7 @@
 
     <!-- watches section  -->
     <div class="container">
-        <h3 class="headings"> Wrist Watches</h3>
+        <h3 class="headings" id="watch"> Wrist Watches</h3>
         <div class="row text-center my-5">
             <div class="col-md-3">
                 <div class="card pt-3">

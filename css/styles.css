@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
+.banner {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.bantext {
+  font-size: 50px;
+  font-family: lobster;
+}
+.cart {
+  font-size: 23px;
+}
+.logo {
+  font-family: lobster;
+  text-shadow: 1px 3px 2px greenyellow;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.logos {
+  font-family: lobster;
+  text-shadow: 1px 3px 2px white;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  text-decoration: none;
+}
+li :hover {
+  background-color: greenyellow;
+  color: white;
+}
+.para {
+  font-size: 25px;
+}
+select {
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: white;
+  padding: 10px;
+}
+.button {
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.price{
+    font-size: large;
+}
+.headings{
+    text-shadow: 1px 3px 2px greenyellow;
+    /* font-family: lobster; */
+    font-size: 30px;
+}
+.footer{
+    background-color: greenyellow;
+}
+.footext{
+    font-size: 20px;
+    font-weight: bold;
+}
